@@ -1,0 +1,21 @@
+{
+  "reqQuantity": 0,
+  "productId": null,
+  "modifiedAt": null,
+  "listItemId": "519c01c2-f5a9-4fde-9aa8-5b03ce28f0fb",
+  "listId": "9a0482ce-d91f-43b5-a80a-e526688f5c1d",
+  "productName": null,
+  "lastOrderAt": null,
+  "itemId": null,
+  "createdAt": null,
+  "sequenceNo": 0,
+  "createdBy": null,
+  "price": null,
+  "reqChannel": null,
+  "offerId": null,
+  "modifiedBy": null,
+  "id": "7cf9a2f9-bff5-4116-a220-2729b61300db",
+  "currencyCode": null
+}
+
+/*just id is not needed - is this cosmos id?

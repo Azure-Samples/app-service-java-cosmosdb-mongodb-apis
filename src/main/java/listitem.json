@@ -1,0 +1,20 @@
+{
+  "listItemDetails": null,
+  "listId": "d00e4cc4-6e28-4f62-a096-3706cb0d34b3",
+  "id": "d9011751-d806-4b10-96a8-c05a41d52f12",
+  "modifiedAt": 1562155016561,
+  "listType": "WL",
+  "membershipNo": "8e3bad12-500b-4746-a8d9-6d9845f0df34",
+  "expiresAt": null,
+  "clubNo": null,
+  "relatedListId": null,
+  "createdAt": 1562155016522,
+  "createdBy": "100",
+  "userAccountId": null,
+  "modifiedBy": "100",
+  "listName": "list-samstest"
+}
+//Let's understand the data model
+//ListItem has listId , just id is not needed
+//ListItemDetails has  "listItemId": and "listId":,
+//listId is the reference

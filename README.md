@@ -1,11 +1,11 @@
 ---
 page_type: sample
 languages:
-- csharp
+- java
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+- cosmossb mongodb
+description: "This Sample demonstrates usage of @Query Annotation, One-To-Many Joins on Cross Docs, Aggregations using $lookup and Pagination Sorting"
+urlFragment: "https://github.com/Azure-Samples/app-service-azure-cosmosdb-mongodb"
 ---
 
 # Official Microsoft Sample
@@ -39,11 +39,20 @@ Outline the required components and tools that a user might need to have on thei
 
 ## Setup
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+Setup Azure Cosmos MongoDB  
+In a new window, sign in to the Azure portal.    
+Create a new Database Account from instructions on https://docs.microsoft.com/en-us/azure/cosmos-db/create-mongodb-java    
+Note the connectionString from the "QuickStart". This will be needed later to update in application.properties  
 
-## Runnning the sample
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+## Running the sample
+To download the code
+git clone https://github.com/Azure-Samples/app-service-azure-cosmosdb-mongodb  
+cd app-service-azure-cosmosdb-mongodb  
+update the connectionString in the application.properties from cosmosdb mondodb account  
+mvn clean package  
+mvn clean spring-boot:run  
+
 
 ## Key concepts
 
