@@ -21,8 +21,6 @@ public class ListItemDetails {
     public String offerId;
     public String currencyCode;
 
-   // @DBRef
-  //  private ListItem listItem;
     public String list_Id;
 
     @CreatedBy
