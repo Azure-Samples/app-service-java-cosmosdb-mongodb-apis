@@ -83,13 +83,14 @@ mvn clean package
 mvn clean spring-boot:run  
 
 
-## Key concepts
+## Goal of this PoC
 The Goal of this reference sample is to demonstrate  
-1. Adding 2 Collections into Cosmos Mongo ListItem and ListItemDetails  
+1. Adding 2 Collections into Cosmos Mongo ListItem and ListItemDetails  as One to Many document modelling
 2. Able to Query elements of Document with @Query annotation  
-3. Using aggregates   
+3. Using count, aggregates   
 4. Lookup Operation for fetching list of lists on Cross documents with a single call 
-5. Pagination and Sorting  
+5. Pagination and Sorting on list collection 
+
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-introduction  
 https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/ 
